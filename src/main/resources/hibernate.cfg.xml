@@ -12,6 +12,8 @@
         <property name="hibernate.hbm2ddl.auto">create-drop</property>
         <mapping class="sda.hibernate.entity.przyklad1.Uzytkownik"/>
         <mapping class="sda.hibernate.entity.przyklad1.Uzytkownik2"/>
+        <mapping class="sda.hibernate.entity.przyklad1.UzytkownikExtraData"/>
+        <mapping class="sda.hibernate.entity.przyklad1.UzytkownikExtraData2"/>
         <mapping class="sda.hibernate.entity.przyklad2.przed.Adres"/>
         <mapping class="sda.hibernate.entity.przyklad2.przed.Klient"/>
         <mapping class="sda.hibernate.entity.przyklad2.przed.Produkt"/>
