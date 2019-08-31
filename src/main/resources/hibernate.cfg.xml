@@ -10,15 +10,6 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL55Dialect</property>
         <property name="hibernate.hbm2ddl.auto">create-drop</property>
-        <mapping class="sda.hibernate.entity.przyklad1.Uzytkownik"/>
-        <mapping class="sda.hibernate.entity.przyklad1.Uzytkownik2"/>
-        <mapping class="sda.hibernate.entity.przyklad1.UzytkownikExtraData"/>
-        <mapping class="sda.hibernate.entity.przyklad1.UzytkownikExtraData2"/>
-        <mapping class="sda.hibernate.entity.przyklad2.przed.Adres"/>
-        <mapping class="sda.hibernate.entity.przyklad2.przed.Klient"/>
-        <mapping class="sda.hibernate.entity.przyklad2.przed.Produkt"/>
-        <mapping class="sda.hibernate.entity.przyklad2.po.Adres2"/>
-        <mapping class="sda.hibernate.entity.przyklad2.po.Klient2"/>
-        <mapping class="sda.hibernate.entity.przyklad2.po.Produkt2"/>
+        <mapping class="sda.hibernate.zadania.entity.Pacjent"/>
     </session-factory>
 </hibernate-configuration>
